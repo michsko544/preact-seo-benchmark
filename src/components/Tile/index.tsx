@@ -10,8 +10,8 @@ export default function Tile({
   title = "",
   icon = "add-user",
   secondary = false,
-}: Props): JSX.Element {
-  const getIcon = (icon: Props["icon"]): JSX.Element => {
+}: Props) {
+  const getIcon = (icon: Props["icon"]) => {
     if (icon === "money") {
       return (
         <svg

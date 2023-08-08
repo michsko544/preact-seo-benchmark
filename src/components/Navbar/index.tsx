@@ -1,7 +1,7 @@
 import Logo from "../Logo";
 import "./styles.css";
 
-export default function Navbar(): JSX.Element {
+export default function Navbar() {
   return (
     <header className="navbar">
       <div className="navbar__inner">

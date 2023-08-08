@@ -2,7 +2,7 @@ import Dots from "../Dots";
 import Logo from "../Logo";
 import "./styles.css";
 
-export default function Footer(): JSX.Element {
+export default function Footer() {
   return (
     <footer className="footer">
       <div className="footer__inner">
@@ -43,7 +43,7 @@ export default function Footer(): JSX.Element {
           </div>
           <div className="footer__end">
             <a
-              href="https://github.com/michsko544/react-seo-benchmark"
+              href="https://github.com/michsko544/preact-seo-benchmark"
               target="_blank"
             >
               <svg

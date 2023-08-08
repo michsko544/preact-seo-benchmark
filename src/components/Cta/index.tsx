@@ -6,7 +6,7 @@ type Props = {
   title?: string;
 };
 
-export default function Cta({ title = "" }: Props): JSX.Element {
+export default function Cta({ title = "" }: Props) {
   return (
     <section className="cta">
       <img src={ctaImage} alt="Neonowy kaktus" className="cta__image" />

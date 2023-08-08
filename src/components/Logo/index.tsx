@@ -1,6 +1,6 @@
 import "./styles.css";
 
-export default function Logo(): JSX.Element {
+export default function Logo() {
   return (
     <a href="/" className="logo__container">
       <div className="logo__circle"></div>

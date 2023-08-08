@@ -1,7 +1,7 @@
 import Tile from "../Tile";
 import "./styles.css";
 
-export default function Tiles(): JSX.Element {
+export default function Tiles() {
   return (
     <section className="tiles">
       <div className="content-wrapper">

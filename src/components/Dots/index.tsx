@@ -4,7 +4,7 @@ type Props = {
   direction?: "left" | "right";
 };
 
-export default function Dots({ direction = "right" }: Props): JSX.Element {
+export default function Dots({ direction = "right" }: Props) {
   return (
     <div className={`dots ${direction === "right" ? "" : "dots--right"}`}>
       <div className="dot__long"></div>

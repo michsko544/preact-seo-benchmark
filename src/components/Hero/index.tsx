@@ -8,10 +8,7 @@ type Props = {
   description?: string;
 };
 
-export default function Hero({
-  title = "",
-  description = "",
-}: Props): JSX.Element {
+export default function Hero({ title = "", description = "" }: Props) {
   return (
     <section className="hero">
       <img src={heroImage} alt="Zdjęcie główne" className="hero__image" />
@@ -25,7 +22,7 @@ export default function Hero({
               <Button
                 onClick={() =>
                   (window.location.href =
-                    "https://github.com/michsko544/react-seo-benchmark")
+                    "https://github.com/michsko544/preact-seo-benchmark")
                 }
               >
                 <svg
