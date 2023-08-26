@@ -45,6 +45,7 @@ export default function Footer() {
             <a
               href="https://github.com/michsko544/preact-seo-benchmark"
               target="_blank"
+              className="footer__social-link"
             >
               <svg
                 width="32"
